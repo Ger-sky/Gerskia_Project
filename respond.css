@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1114px) {
+    :root {
+        --apsize: 15px;
+        --h1size: 80px;
+        --h2size: 40px;
+        --h3size: 20px;
+        --h4size: 17px;
+        --pad: 10px 25px;
+        --blcgap: 50px;
+        --cgap: 25px;
+        --rgap: 30px;
+    }
+    header .H1 {
+        display: none;
+    }
+    header .H2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .H2 h3 {
+        font-size: var(--h3size);
+        margin-top: 15px;
+    }
+    .H2 img {
+        width: 40px;
+        height: 40px;
+        margin-top: 3px;
+    }
+    main .section1 {
+        margin-top: 50px;
+    }
+    .s1 button {
+        width: 180px;
+        font-size: var(--apsize);
+        color: var(--apclr);
+        background-color: var(--txtbtnclr);
+        border: none;
+        border-radius: 50px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .s3 .break {
+        display: flex;
+        flex-direction: column;
+    }
+    .break .icon {
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .s4 .one {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        border: 1px solid var(--apclr);
+    }
+    .text p {
+        font-size: var(--apsize);
+        color: var(--apclr);
+        line-height: normal;
+    }
+    .one .text {
+        padding: 10px;
+    }
+    .section2 .s4 {
+        overflow-y: scroll;
+        padding: 0;
+        padding-left: 25px;
+    }
+    .s4 .one {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        border: 1px solid var(--apclr);
+    }
+    .sided .fi-icon {
+        display: none;
+    }
+    .sided .fi-icon1 {
+        border: 2px ;
+        padding: 100px;
+        height: 80px;
+        width: 100px;
+        border-radius: 100%;
+        overflow: hidden;
+        transform: rotate(310deg);
+        display: flex;
+        color: #000000;
+        justify-content: center;
+        align-items: center;
+    }
+    .section3 .sided {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    main .section4 {
+        display: none;
+    }
+    main .border {
+        display: none;
+    }
+    main .section5 {
+        margin-top: -220px;
+        column-gap: 20px;
+    }
+    main .section5 {
+        display: flex;
+        flex-direction: column;
+    }
+    .gauche .btn {
+        display: flex;
+    }
+    .droight .btn {
+        display: flex;
+        column-gap: 20px;
+    }
+    .btn button {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+}
